@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="CustomCalendar">
+
+    <!--不是当月的日期颜色-->
+    <attr format="color" name="mTextColorHint"/>
+    <!--当月日期颜色-->
+    <attr format="color" name="mTextColorNormal"/>
+    <!--选中的日期文字颜色-->
+    <attr format="color" name="mTextColorSelect"/>
+    <!--当天日期未选中颜色-->
+    <attr format="color" name="mTextColorToday"/>
+    <!--未选中日期的圆点颜色-->
+    <attr format="color" name="mPointColorNormal"/>
+    <!--选中日期的圆点颜色-->
+    <attr format="color" name="mPointColorSelect"/>
+    <!--日期文字大小-->
+    <attr format="dimension" name="mTextSize"/>
+    <!--圆点大小-->
+    <attr format="dimension" name="mPointSize"/>
+    <!--月历视图高度-->
+    <attr format="dimension" name="calendarHeight"/>
+    <!--日历背景颜色-->
+    <attr format="color" name="backgroundColor"/>
+
+  </declare-styleable>
+</resources>
